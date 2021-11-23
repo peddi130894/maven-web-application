@@ -96,15 +96,15 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
-	      <name>ci-cd releases Repository</name>
-	      <url>http://13.127.86.75:8081/repository/ci-cd-releases/</url>
+	      <id>ci-releases</id>
+	      <name>ci-releases Repository</name>
+	      <url>http://15.206.90.141:8081/repository/ci-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>ci-cd Snapshot Repository </name>
-	      <url>http://13.127.86.75:8081/repository/ci-cd-sanpshot/</url>
+	      <id>ci-snapshots</id>
+	      <name>ci-snapshots Repository </name>
+	      <url>http://15.206.90.141:8081/repository/ci-sanpshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
