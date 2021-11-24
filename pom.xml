@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://65.2.83.224:9000/</sonar.host.url>
+		<sonar.host.url>http://3.108.220.85:9000/</sonar.host.url>
                 <sonar.login>de0781663338ed04ff196be71f8b413aed054850</sonar.login>
               
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ci-cd-releases Repository</name>
-	      <url>http://15.206.90.141:8081/repository/ci-cd-releases/</url>
+	      <url>http://65.0.183.46:8081/repository/ci-cd-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ci-cd-snapshots Repository </name>
-	      <url>http://15.206.90.141:8081/repository/ci-cd-sanpshot/</url>
+	      <url>http://65.0.183.46:8081/repository/ci-cd-sanpshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
